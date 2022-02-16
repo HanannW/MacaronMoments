@@ -1,0 +1,83 @@
+body {
+    background-color: #C0B7B1;
+    font-family: "Nunito", sans-serif;
+
+}
+.blurb h2{
+    color: rgb(92, 19, 19);
+    font-weight:100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: rgb(2, 1, 1);
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#mainNavbar{
+    font-size:1.5rem;
+    font-weight:100;
+}
+
+
+#mainNavbar .nav-link{
+    color:#433E3F;
+
+}
+
+#mainNavbar .nav-link:hover{
+    color: white;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(92, 19, 19);
+    font-size:1.5rem;
+    
+    
+}
+
+#HeadingGroup span {
+    color: rgb(102, 47, 47);
+
+}
+#HeadingGroup h1 {
+    font-weight:100;
+    font-size: 3.5rem;
+
+}
+
+/* Below - js function which uses CSS class to change the colour of the navbar when you scroll */
+.mainNavbar .scroll {
+    background-color:#6b6365;
+    transition: 500ms;
+
+}
+
+/* .img-responsive{
+    max-width: auto;
+    max-height:600px;
+}  Does slightly deform image, change both max and even add mini??*/
+
+
+@media(max-width: 1200px){
+
+    #HeadingGroup h1 {
+        font-weight:100;
+        font-size: 2.5rem;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
